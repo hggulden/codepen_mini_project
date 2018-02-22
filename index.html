@@ -1,0 +1,24 @@
+<body>
+  <h1>Image Filtering</h1>
+<div>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" height=300px>
+</script>
+<canvas id="can">
+</canvas>
+<p class="dim">Image Upload:
+<input type="file" multiple="false" accept="image/*" 
+id="input" onchange=uploadimage()>
+<body>
+<p id="note">Dimension:</p>
+</body>
+<p>
+  <p>
+<input type="button" value="Grayscale" id="makeGray" onclick="makeGray()">
+<input type="button" value="Redscale" id="makered" onclick="makeRed()">
+<input type="button" value="Rainbow" id="rainbow" onclick="makeRbow()">
+<input type="button" value="Blur" id="play" onclick="imgBlur()">
+<input type="button" value="filter" id="fltr"  onclick="FilterImage()">
+  <input type="button" value="Reset Image"  id="clr" onclick="doReset()">
+<input type="button" value="Clear Canvas"  id="remove" onclick="doClear()">
+  <input type="button" onclick="imgSize()" value="image size" id=size></div>
+</body>
